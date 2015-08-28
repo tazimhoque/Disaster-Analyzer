@@ -1,0 +1,10 @@
+
+CREATE OR REPLACE PROCEDURE showResult  IS 
+CURSOR c IS
+	SELECT * from NUMBERS;
+BEGIN
+    open c; 
+END;
+
+/
+ 
